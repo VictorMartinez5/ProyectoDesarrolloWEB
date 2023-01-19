@@ -1,4 +1,4 @@
-.portada__cibertenica {
+.portada__inteligencia {
     width: 100%;
     height: 550px;
     background: url("../../img/portada.jpg") no-repeat center center/cover;
@@ -29,7 +29,7 @@
   }
 
 
-.noticias1__cibernetica {
+.noticias1__inteligencia {
     width: 100%;
     height: 350px;
     background: url("../../img/image-three.jpg") no-repeat center center/cover;
@@ -42,13 +42,13 @@
     }
     
     & p,
-    .noticias2__cibernetica p {
+    .noticias2__inteligencia p {
     margin: 10px 0 20px 0;
     }
 }
     
     /* Noticia grande 2*/
-    .noticias2__cibernetica {
+    .noticias2__inteligencia {
     width: 100%;
     height: 350px;
     background: url("../../img/image-five.jpg") no-repeat center center/cover;
@@ -64,8 +64,8 @@
 /* Responsive */
 @media (max-width: 700px){
   
-    .noticias1__cibernetica .content,
-    .noticias2__cibernetica .content {
+    .noticias1__inteligencia .content,
+    .noticias2__inteligencia .content {
       width: 80%;
     }
 
@@ -73,8 +73,8 @@
   
   @media (max-width: 500px) {
   
-    .noticias1__cibernetica .content,
-    .noticias2__cibernetica .content {
+    .noticias1__criptos .content,
+    .noticias2__criptos .content {
       width: 100%;
       padding: 60px 20px;
     }

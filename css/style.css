@@ -292,7 +292,402 @@ hr {
   padding-bottom: 20px;
 }
 
-/* Mobil */
+.portada__cibertenica {
+  width: 100%;
+  height: 550px;
+  background: url("../../img/portada.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  color: rgb(189, 0, 117);
+}
+.portada__cibertenica h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.portada__cibertenica p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.portada__cibertenica .btn {
+  margin-top: 20px;
+}
+
+.noticias1__cibernetica {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-three.jpg") no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+.noticias1__cibernetica .content {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #fff;
+}
+.noticias1__cibernetica p,
+.noticias1__cibernetica .noticias2__cibernetica p {
+  margin: 10px 0 20px 0;
+}
+
+/* Noticia grande 2*/
+.noticias2__cibernetica {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-five.jpg") no-repeat center center/cover;
+}
+.noticias2__cibernetica .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .noticias1__cibernetica .content,
+  .noticias2__cibernetica .content {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .noticias1__cibernetica .content,
+  .noticias2__cibernetica .content {
+    width: 100%;
+    padding: 60px 20px;
+  }
+}
+.portada__seguridad {
+  width: 100%;
+  height: 550px;
+  background: url("../../img/portada.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  color: rgb(189, 0, 117);
+}
+.portada__seguridad h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.portada__seguridad p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.portada__seguridad .btn {
+  margin-top: 20px;
+}
+
+.noticias1__seguridad {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-three.jpg") no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+.noticias1__seguridad .content {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #fff;
+}
+.noticias1__seguridad p,
+.noticias1__seguridad .noticias2__seguridad p {
+  margin: 10px 0 20px 0;
+}
+
+/* Noticia grande 2*/
+.noticias2__seguridad {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-five.jpg") no-repeat center center/cover;
+}
+.noticias2__seguridad .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .noticias1__seguridad .content,
+  .noticias2__seguridad .content {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .noticias1__seguridad .content,
+  .noticias2__seguridad .content {
+    width: 100%;
+    padding: 60px 20px;
+  }
+}
+.portada__criptos {
+  width: 100%;
+  height: 550px;
+  background: url("../../img/portada.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  color: rgb(189, 0, 117);
+}
+.portada__criptos h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.portada__criptos p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.portada__criptos .btn {
+  margin-top: 20px;
+}
+
+.noticias1__criptos {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-three.jpg") no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+.noticias1__criptos .content {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #fff;
+}
+.noticias1__criptos p,
+.noticias1__criptos .noticias2__criptos p {
+  margin: 10px 0 20px 0;
+}
+
+/* Noticia grande 2*/
+.noticias2__criptos {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-five.jpg") no-repeat center center/cover;
+}
+.noticias2__criptos .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .noticias1__criptos .content,
+  .noticias2__criptos .content {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .noticias1__criptos .content,
+  .noticias2__criptos .content {
+    width: 100%;
+    padding: 60px 20px;
+  }
+}
+.portada__inteligencia {
+  width: 100%;
+  height: 550px;
+  background: url("../../img/portada.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  color: rgb(189, 0, 117);
+}
+.portada__inteligencia h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.portada__inteligencia p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.portada__inteligencia .btn {
+  margin-top: 20px;
+}
+
+.noticias1__inteligencia {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-three.jpg") no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+.noticias1__inteligencia .content {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #fff;
+}
+.noticias1__inteligencia p,
+.noticias1__inteligencia .noticias2__inteligencia p {
+  margin: 10px 0 20px 0;
+}
+
+/* Noticia grande 2*/
+.noticias2__inteligencia {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-five.jpg") no-repeat center center/cover;
+}
+.noticias2__inteligencia .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .noticias1__inteligencia .content,
+  .noticias2__inteligencia .content {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .noticias1__criptos .content,
+  .noticias2__criptos .content {
+    width: 100%;
+    padding: 60px 20px;
+  }
+}
+.portada__juegos {
+  width: 100%;
+  height: 550px;
+  background: url("../../img/portada.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  color: rgb(189, 0, 117);
+}
+.portada__juegos h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.portada__juegos p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.portada__juegos .btn {
+  margin-top: 20px;
+}
+
+.noticias1__juegos {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-three.jpg") no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+.noticias1__juegos .content {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #fff;
+}
+.noticias1__juegos p,
+.noticias1__juegos .noticias2__juegos p {
+  margin: 10px 0 20px 0;
+}
+
+/* Noticia grande 2*/
+.noticias2__juegos {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-five.jpg") no-repeat center center/cover;
+}
+.noticias2__juegos .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .noticias1__juegos .content,
+  .noticias2__juegos .content {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .noticias1__juegos .content,
+  .noticias2__juegos .content {
+    width: 100%;
+    padding: 60px 20px;
+  }
+}
+.portada__otros {
+  width: 100%;
+  height: 550px;
+  background: url("../../img/portada.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  color: rgb(189, 0, 117);
+}
+.portada__otros h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.portada__otros p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.portada__otros .btn {
+  margin-top: 20px;
+}
+
+.noticias1__otros {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-three.jpg") no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+.noticias1__otros .content {
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #fff;
+}
+.noticias1__otros p,
+.noticias1__otros .noticias2__otros p {
+  margin: 10px 0 20px 0;
+}
+
+/* Noticia grande 2*/
+.noticias2__otros {
+  width: 100%;
+  height: 350px;
+  background: url("../../img/image-five.jpg") no-repeat center center/cover;
+}
+.noticias2__otros .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .noticias1__otros .content,
+  .noticias2__otros .content {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .noticias1__otros .content,
+  .noticias2__otros .content {
+    width: 100%;
+    padding: 60px 20px;
+  }
+}
 @media (max-width: 700px) {
   .menu__btn {
     display: block;
