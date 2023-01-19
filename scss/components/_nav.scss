@@ -1,0 +1,49 @@
+/* Contenedor Nav */
+.nav__main {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.nav__img {
+  width: 50px;
+}
+
+/* Nav Menu */
+.nav__main ul {
+  display: flex;
+}
+
+.nav__main ul li {
+  padding: 10px;
+}
+
+.nav__main  ul li a {
+  padding: 2px;
+}
+
+.nav__main ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.nav__main ul.nav__menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+/* Responsive Button */
+.menu__btn {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+}

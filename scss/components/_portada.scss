@@ -1,0 +1,49 @@
+/* Portada */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid rgb(189, 0, 117);
+  
+   &:hover {
+    opacity: 0.9;
+  }
+
+}
+  
+  
+  .portada {
+    width: 100%;
+    height: 550px;
+    background: url("../../img/portada.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: rgb(189, 0, 117);
+    
+  
+  
+  & h2{
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+  & p {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  & .btn {
+    margin-top: 20px;
+  }
+
+  }
