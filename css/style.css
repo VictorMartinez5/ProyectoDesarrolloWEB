@@ -97,7 +97,7 @@ hr {
 .portada {
   width: 100%;
   height: 550px;
-  background: url("../../img/portada.jpg") no-repeat center center/cover;
+  background: url("../img/portada.jpg") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -237,7 +237,7 @@ hr {
 .portada__seguridad {
   width: 100%;
   height: 550px;
-  background: url("../../img/ciberseguridad.jpg") no-repeat center center/cover;
+  background: url("../img/ciberseguridad.jpg") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -262,7 +262,7 @@ hr {
 .noticias1__seguridad {
   width: 100%;
   height: 350px;
-  background: url("../../img/proteccion-malware.jpg") no-repeat center center/cover;
+  background: url("../img/proteccion-malware.jpg") no-repeat center center/cover;
   margin-bottom: 40px;
 }
 .noticias1__seguridad .content {
@@ -283,7 +283,7 @@ hr {
 .noticias2__seguridad {
   width: 100%;
   height: 350px;
-  background: url("../../img/paypal.jpg") no-repeat center center/cover;
+  background: url("../img/paypal.jpg") no-repeat center center/cover;
 }
 .noticias2__seguridad .content {
   width: 50%;
@@ -313,7 +313,7 @@ hr {
 .portada__inteligencia {
   width: 100%;
   height: 550px;
-  background: url("../../img/ia.jpg") no-repeat center center/cover;
+  background: url("../img/ia.jpg") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -338,7 +338,7 @@ hr {
 .noticias1__inteligencia {
   width: 100%;
   height: 400px;
-  background: url("../../img/vall-e.jpg") no-repeat center center/cover;
+  background: url("../img/vall-e.jpg") no-repeat center center/cover;
   margin-bottom: 40px;
 }
 .noticias1__inteligencia .content {
@@ -355,7 +355,7 @@ hr {
 .noticias2__inteligencia {
   width: 100%;
   height: 450px;
-  background: url("../../img/chat-inteligencia-artificial.jpg") no-repeat center center/cover;
+  background: url("../img/chat-inteligencia-artificial.jpg") no-repeat center center/cover;
 }
 .noticias2__inteligencia .content {
   width: 50%;
@@ -379,7 +379,7 @@ hr {
 .portada__juegos {
   width: 100%;
   height: 550px;
-  background: url("../../img/juegos-esperados.jpeg") no-repeat center center/cover;
+  background: url("../img/juegos-esperados.jpeg") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -404,7 +404,7 @@ hr {
 .noticias1__juegos {
   width: 100%;
   height: 450px;
-  background: url("../../img/ibai.jpeg") no-repeat center center/cover;
+  background: url("../img/ibai.jpeg") no-repeat center center/cover;
   margin-bottom: 40px;
 }
 .noticias1__juegos .content {
@@ -421,7 +421,7 @@ hr {
 .noticias2__juegos {
   width: 100%;
   height: 400px;
-  background: url("../../img/player-game.png") no-repeat center center/cover;
+  background: url("../img/player-game.png") no-repeat center center/cover;
 }
 .noticias2__juegos .content {
   width: 50%;
@@ -445,7 +445,7 @@ hr {
 .portada__otros {
   width: 100%;
   height: 550px;
-  background: url("../../img/robotica.jpg") no-repeat center center/cover;
+  background: url("../img/robotica.jpg") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -470,7 +470,7 @@ hr {
 .noticias1__otros {
   width: 100%;
   height: 400px;
-  background: url("../../img/meta-veso.jpg") no-repeat center center/cover;
+  background: url("../img/meta-veso.jpg") no-repeat center center/cover;
   margin-bottom: 40px;
 }
 .noticias1__otros .content {
@@ -487,7 +487,7 @@ hr {
 .noticias2__otros {
   width: 100%;
   height: 350px;
-  background: url("../../img/blockchain-blog.png") no-repeat center center/cover;
+  background: url("../img/blockchain-blog.png") no-repeat center center/cover;
 }
 .noticias2__otros .content {
   width: 50%;
