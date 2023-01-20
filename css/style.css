@@ -145,7 +145,7 @@ hr {
 .noticias__grande1 {
   width: 100%;
   height: 350px;
-  background: url("../../img/tarjeta-grafica.jpg") no-repeat center center/cover;
+  background: url("../img/tarjeta-grafica.jpg") no-repeat center center/cover;
   margin-bottom: 40px;
 }
 .noticias__grande1 .content {
@@ -162,7 +162,7 @@ hr {
 .noticias__grande2 {
   width: 100%;
   height: 350px;
-  background: url("../../img/notbook.jpg") no-repeat center center/cover;
+  background: url("../img/notbook.jpg") no-repeat center center/cover;
 }
 .noticias__grande2 .content {
   width: 50%;
