@@ -1,7 +1,7 @@
 .portada__inteligencia {
     width: 100%;
     height: 550px;
-    background: url("../../img/portada.jpg") no-repeat center center/cover;
+    background: url("../../img/ia.jpg") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
     justify-content: flex-end;
     padding-bottom: 50px;
     margin-bottom: 20px;
-    color: rgb(189, 0, 117);
+    color: rgb(255, 255, 255);
     
   
   
@@ -31,12 +31,12 @@
 
 .noticias1__inteligencia {
     width: 100%;
-    height: 350px;
-    background: url("../../img/image-three.jpg") no-repeat center center/cover;
+    height: 400px;
+    background: url("../../img/vall-e.jpg") no-repeat center center/cover;
     margin-bottom: 40px;
 
     & .content {
-    width: 40%;
+    width: 60%;
     padding: 90px 0 0 30px;
     color: #fff;
     }
@@ -50,8 +50,8 @@
     /* Noticia grande 2*/
     .noticias2__inteligencia {
     width: 100%;
-    height: 350px;
-    background: url("../../img/image-five.jpg") no-repeat center center/cover;
+    height: 450px;
+    background: url("../../img/chat-inteligencia-artificial.jpg") no-repeat center center/cover;
     
 
     & .content {
