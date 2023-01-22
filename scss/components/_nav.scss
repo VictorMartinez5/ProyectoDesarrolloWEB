@@ -1,6 +1,9 @@
+@import "../utils/mixinsfunc";
+@import "../utils/variables";
+
 /* Contenedor Nav */
 .nav__main {
-  font-size: 18px;
+  font-size: pixeles-rem(18);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +29,7 @@
 }
 
 .nav__main ul li a:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid $color__principal;
 }
 
 .nav__main ul.nav__menu {

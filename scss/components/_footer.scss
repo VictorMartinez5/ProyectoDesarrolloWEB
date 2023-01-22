@@ -1,10 +1,12 @@
+@import "../utils/mixinsfunc";
+
 /* Follow */
 .social {
     margin: 50px;
 }
 .social p {
     text-align: center;
-    font-size: 30px;
+    font-size: pixeles-rem(30);
     margin-bottom: 20px;
 }
 .links {
@@ -25,7 +27,7 @@
 .footer__links {
     background: #2f3640;
     color: #616161;
-    font-size: 12px;
+    font-size: pixeles-rem(12);
     padding: 35px 0;
 }
 
@@ -48,7 +50,7 @@
 .footer {
     background: #2f3640;
     color: #616161;
-    font-size: 12px;
+    font-size: pixeles-rem(12);
     padding: 20px 0;
     text-align: center;
     font-size: 1rem;

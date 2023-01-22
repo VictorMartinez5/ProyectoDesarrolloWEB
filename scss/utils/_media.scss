@@ -1,3 +1,4 @@
+@import "../utils/mixinsfunc";
 
 @media (max-width: 700px) {
   .menu__btn {
@@ -27,7 +28,7 @@
   .nav__main ul.nav__menu li {
     padding: 20px;
     border-bottom: #ccc solid 1px;
-    font-size: 14px;
+    font-size: pixeles-rem(14);
   }
   .nav__main ul.nav__menu li:last-child {
     border-bottom: 0;

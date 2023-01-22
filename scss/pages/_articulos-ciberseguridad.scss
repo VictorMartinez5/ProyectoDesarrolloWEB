@@ -1,12 +1,10 @@
+@import "../utils/mixinsfunc";
+
 .portada__seguridad {
     width: 100%;
     height: 550px;
     background: url("../img/ciberseguridad.jpg") no-repeat center center/cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: flex-end;
+    @include crear__flexbox;
     padding-bottom: 50px;
     margin-bottom: 20px;
     color: rgb(255, 255, 255);
@@ -15,11 +13,11 @@
   
   & h2{
     margin-bottom: 10px;
-    font-size: 28px;
+    font-size: pixeles-rem(28);
 }
   & p {
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: pixeles-rem(18);
   }
   
   & .btn {
