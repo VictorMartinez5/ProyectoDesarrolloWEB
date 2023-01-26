@@ -194,7 +194,7 @@ hr {
 
 .card-content label {
   color: #fff;
-  font-size: 1.75rem;
+  font-size: 1rem;
   opacity: 0.8;
 }
 
@@ -230,7 +230,7 @@ hr {
 
 .card-footer a {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 0.75rem;
   opacity: 0.8;
   color: #fff;
   text-decoration: none;
