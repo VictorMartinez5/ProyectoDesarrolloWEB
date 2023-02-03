@@ -510,6 +510,23 @@ hr {
     padding: 60px 20px;
   }
 }
+.container__noticias {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.title__noticia {
+  text-align: flex-start;
+  margin: 20px 0px;
+}
+
+.img__noticia {
+  justify-content: center;
+  width: 80%;
+  margin: 50px;
+}
+
 /* Follow */
 .social {
   margin: 50px;
